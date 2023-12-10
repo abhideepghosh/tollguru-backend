@@ -20,7 +20,7 @@ app.post("/", (req, res) => {
       req.body,
       {
         headers: {
-          "x-api-key": "J69frFMBFthmPTH7HTTm7NgF7p4dFRNf",
+          "x-api-key": "dGJpDDJmq3Mbm9Jh9h4R7BJR8f2HqqL2",
           "Content-Type": "application/json",
         },
       }
