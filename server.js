@@ -3,13 +3,7 @@ import axios from "axios";
 import express from "express";
 
 const app = express();
-app.use(
-  cors({
-    origin: "*",
-    methods: ["GET", "POST"],
-    credentials: true,
-  })
-);
+app.use(cors());
 
 const port = 3000;
 
